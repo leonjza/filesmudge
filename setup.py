@@ -2,6 +2,12 @@ from setuptools import setup
 
 setup(
     name='filesmudge',
+    packages=['filesmudge'],
+    description='A silly file \'smudger\'',
+    author='Leon Jacobs',
+    url='https://github.com/leonjza/filesmudge',
+    download_url = 'https://github.com/leonjza/filesmudge/tarball/0.1',
+    keywords=['file', 'magic', 'bytes', 'edit', 'smudge'],
     version='0.1',
     py_modules=['smudge'],
     install_requires=[
