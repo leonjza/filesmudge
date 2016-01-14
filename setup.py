@@ -2,7 +2,6 @@ from setuptools import setup
 
 setup(
     name='filesmudge',
-    packages=['filesmudge'],
     description='A silly file \'smudger\'',
     author='Leon Jacobs',
     url='https://github.com/leonjza/filesmudge',
