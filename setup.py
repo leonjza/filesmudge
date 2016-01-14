@@ -6,9 +6,9 @@ setup(
     author='Leon Jacobs',
     author_email='leonja511@gmail.com',
     url='https://github.com/leonjza/filesmudge',
-    download_url = 'https://github.com/leonjza/filesmudge/tarball/0.1',
+    download_url = 'https://github.com/leonjza/filesmudge/tarball/0.3',
     keywords=['file', 'magic', 'bytes', 'edit', 'smudge'],
-    version='0.2',
+    version='0.3',
     py_modules=['smudge'],
     install_requires=[
         'Click', 'python-magic'
