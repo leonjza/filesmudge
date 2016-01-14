@@ -98,7 +98,7 @@ def _smudge_bytes(target, offset, magic_bytes):
         f.write(magic_bytes)
         f.flush()
 
-    click.echo('Changed written')
+    click.echo('Changes written')
 
 
 @cli.command()
@@ -150,10 +150,13 @@ def restore(source, offset):
     with open(backup_location, 'r+b') as b:
         data = b.read()
 
+    click.echo('Restoring {c} bytes from offset {o}'.format(c=len(data), o=offset))
     with open(source, 'r+b') as f:
         f.seek(offset)
         f.write(data)
         f.flush()
+
+    click.echo('Changes written')
 
 
 @cli.command()
