@@ -4,6 +4,7 @@ setup(
     name='filesmudge',
     description='A silly file \'smudger\'',
     author='Leon Jacobs',
+    author_email='leonja511@gmail.com',
     url='https://github.com/leonjza/filesmudge',
     download_url = 'https://github.com/leonjza/filesmudge/tarball/0.1',
     keywords=['file', 'magic', 'bytes', 'edit', 'smudge'],
