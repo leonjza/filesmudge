@@ -1,4 +1,3 @@
-# filesmudge
 ![thing](http://i.imgur.com/5yMsISd.png)  
 Smudge (actually break) a file so that it is detected as another type of file.
 
